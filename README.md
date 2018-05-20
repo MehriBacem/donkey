@@ -9,7 +9,7 @@ community contributions.
 #### Quick Links
 * [Donkeycar Updates & Examples](http://donkeycar.com)
 * [Vehicle Build Instructions](http://www.donkeycar.com)
-* [Software documentation](http://docs.donkeycar.com)
+* [Software documentation](http://docs.robocarstore.com)
 * [Slack / Chat](https://donkey-slackin.herokuapp.com/)
 
 #### Use Donkey if you want to:
