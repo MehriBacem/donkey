@@ -95,6 +95,22 @@
 
     
     <url>
+     <loc>/supported_cars/</loc>
+     <lastmod>2018-06-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/roll_your_own/</loc>
+     <lastmod>2018-06-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>/contribute/</loc>
      <lastmod>2018-06-03</lastmod>
      <changefreq>daily</changefreq>
