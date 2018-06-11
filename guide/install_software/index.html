@@ -226,7 +226,7 @@
             <div class="section">
               
                 <h1 id="install-software">Install Software</h1>
-<p>This guide will help you to setup the software to run Donkey on your Raspberry Pi, as well as the host PC operating system of your choice.</p>
+<p>This guide will help you to setup the software to run Donkey on your Raspberry Pi, as well as the host PC operating system of your choice.  This guide uses a fork maintained by robocarstore, if you would like to use the default Donkey Car software, please follow the instructions on http://docs.donkeycar.com/guide/install_software/.</p>
 <ul>
 <li>Setup <a href="#get-the-raspberry-pi-working">RaspberryPi</a></li>
 <li>Setup <a href="#install-donkeycar-on-linux">Linux Host PC</a></li>
@@ -241,7 +241,7 @@ internet. The fastest way is to use the disk image created for donkey cars. </p>
 operating systems. These instructions are for Ubuntu but you can see more 
 instructions <a href="https://www.raspberrypi.org/documentation/installation/installing-images/">here</a>.</p>
 <ol>
-<li>Download prebuilt <a href="https://www.dropbox.com/s/wiudnm2dcsvoquu/donkey_v22.img.zip?dl=0">zipped disk image</a> (1.1GB). </li>
+<li>Download prebuilt <a href="https://www.dropbox.com/s/lmeevgyucvl2emb/robocarstore_donkey_v22.zip?dl=0">zipped disk image</a> (1.1GB).</li>
 <li>Unzip the disk image.</li>
 <li>Plug your SD card into your computer.</li>
 <li>Open the "Startup Disk Creator" application.</li>
@@ -355,7 +355,7 @@ pip install tensorflow==1.3.0
 <ul>
 <li>Install donkey source and create your local working dir:</li>
 </ul>
-<pre><code class="bash">git clone https://github.com/wroscoe/donkey donkeycar
+<pre><code class="bash">git clone https://github.com/robocarstore/donkey donkeycar
 pip install -e donkeycar
 </code></pre>
 
@@ -383,7 +383,7 @@ cd projects
 <ul>
 <li>Get the latest donkey from Github.</li>
 </ul>
-<pre><code>git clone https://github.com/wroscoe/donkey
+<pre><code>git clone https://github.com/robocarstore/donkey
 cd donkey
 </code></pre>
 
@@ -436,7 +436,7 @@ cd projects
 <ul>
 <li>Get the latest donkey from Github.</li>
 </ul>
-<pre><code>git clone https://github.com/wroscoe/donkey
+<pre><code>git clone https://github.com/robocarstore/donkey
 cd donkey
 </code></pre>
 
@@ -477,7 +477,7 @@ pip install -e .
 
 <p>To get back to the stock donkey install:</p>
 <pre><code>pip uninstall donkeycar
-git clone --depth=1 https://github.com/wroscoe/donkey donkey
+git clone --depth=1 https://github.com/robocarstore/donkey donkey
 cd donkey
 pip install -e .
 </code></pre>
