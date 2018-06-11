@@ -1,6 +1,6 @@
 # Install Software
 
-This guide will help you to setup the software to run Donkey on your Raspberry Pi, as well as the host PC operating system of your choice.
+This guide will help you to setup the software to run Donkey on your Raspberry Pi, as well as the host PC operating system of your choice.  This guide uses a fork maintained by Robocar Store, if you would like to use the default Donkey Car software, please follow the instructions on [official instructions](http://docs.donkeycar.com/guide/install_software/).
 
 * Setup [RaspberryPi](#get-the-raspberry-pi-working)
 * Setup [Linux Host PC](#install-donkeycar-on-linux)
@@ -17,7 +17,7 @@ The method for using a disk image to create a bootable SD card varies between
 operating systems. These instructions are for Ubuntu but you can see more 
 instructions [here](https://www.raspberrypi.org/documentation/installation/installing-images/).
 
-1. Download prebuilt [zipped disk image](https://www.dropbox.com/s/wiudnm2dcsvoquu/donkey_v22.img.zip?dl=0) (1.1GB). 
+1. Download prebuilt [zipped disk image](https://www.dropbox.com/s/lmeevgyucvl2emb/robocarstore_donkey_v22.zip?dl=0) (1.1GB).
 2. Unzip the disk image.
 3. Plug your SD card into your computer.
 4. Open the "Startup Disk Creator" application.
@@ -163,7 +163,7 @@ pip install tensorflow==1.3.0
 
 * Install donkey source and create your local working dir:
 ```bash
-git clone https://github.com/wroscoe/donkey donkeycar
+git clone https://github.com/robocarstore/donkey donkeycar
 pip install -e donkeycar
 ```
 
@@ -189,7 +189,7 @@ cd projects
 * Get the latest donkey from Github.
 
 ```
-git clone https://github.com/wroscoe/donkey
+git clone https://github.com/robocarstore/donkey
 cd donkey
 ```
 
@@ -241,7 +241,7 @@ cd projects
 * Get the latest donkey from Github.
 
 ```
-git clone https://github.com/wroscoe/donkey
+git clone https://github.com/robocarstore/donkey
 cd donkey
 ```
 
@@ -289,7 +289,7 @@ To get back to the stock donkey install:
 
 ```
 pip uninstall donkeycar
-git clone --depth=1 https://github.com/wroscoe/donkey donkey
+git clone --depth=1 https://github.com/robocarstore/donkey donkey
 cd donkey
 pip install -e .
 ```
