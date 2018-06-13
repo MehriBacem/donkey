@@ -82,7 +82,6 @@ If you are having troubles locating your Pi on the network, you will want to plu
 
 * Username: __pi__
 * Password: __asdfasdf__
-  * The older disk images use the password `raspberry`
  
 Then try the command:
 
@@ -117,10 +116,9 @@ ssh pi@<your pi ip address>
 ```
 
 or via Putty:
+
 * Username: __pi__
 * Password: __asdfasdf__
-  * __asdfasdf__ on the current v22 prebuilt image linked above.
-  * __raspberry__ on older images/manual installs
 * Hostname:`<your pi IP address>`
 
 
